@@ -1,10 +1,9 @@
 import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 const Index = () => (
   <div>
-    <Link href="/about">
-      .<a>About Page</a>
-    </Link>
+    <Navbar />
     <p>Hello Next.js testing testing</p>
   </div>
 );
