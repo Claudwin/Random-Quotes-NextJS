@@ -1,11 +1,9 @@
-import Link from "next/link";
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
 
 const Index = () => (
-  <div>
-    <Navbar />
-    <p>Hello Next.js testing testing</p>
-  </div>
+  <Layout>
+    <h1>Hello Next.js testing testing</h1>
+  </Layout>
 );
 
 export default Index;
