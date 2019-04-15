@@ -1,8 +1,11 @@
 import Layout from "../components/Layout";
+import Quotes from "../components/Quotes";
+import AddQuotes from "../components/AddQuote";
 
 const Index = () => (
   <Layout>
-    <h1>Hello Next.js testing testing</h1>
+    <Quotes />
+    <AddQuotes />
   </Layout>
 );
 

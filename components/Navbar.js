@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const Navbar = () => (
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a className="navbar-brand" href="#">
       NEXT Quotes
     </a>
     <button
-      class="navbar-toggler"
+      className="navbar-toggler"
       type="button"
       data-toggle="collapse"
       data-target="#navbarColor01"
@@ -14,19 +14,19 @@ const Navbar = () => (
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon" />
+      <span className="navbar-toggler-icon" />
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+    <div className="collapse navbar-collapse" id="navbarColor01">
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item active">
           <Link href="/">
-            <a class="nav-link">
-              Home <span class="sr-only">(current)</span>
+            <a className="nav-link">
+              Home <span className="sr-only">(current)</span>
             </a>
           </Link>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <Link href="/about">
             <a className="nav-link">About</a>
           </Link>
